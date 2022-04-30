@@ -3,7 +3,7 @@
     height: 100px;
 
     margin: 0;
-    padding: 0;
+    padding: 0 50px;
 
     position: relative;
 
@@ -11,13 +11,13 @@
     align-items: center;
     justify-content: space-between;
 
-    border: 1px dotted black;
+    // border: 1px dotted black;
 
     .logoContainer {
         width: 136px;
         height: 43px;
 
-         border: 1px solid blue;
+        //  border: 1px solid blue;
 
         position: relative;
 
@@ -30,10 +30,56 @@
         display: flex;
         justify-content: space-around;
 
-        border: 1px solid blue;
+        // border: 1px solid blue;
 
-        width: 50%;
+        min-width: 880px;
+        width: 40%;
 
 
+        p {
+            
+            font-size: 13px;
+
+            a {
+                transition: color 0.2s ease-in-out;
+            }
+
+            a:hover {
+                color: black !important;
+            }
+        }
+
+        
+        .dropdown {
+            &:hover .dropdownContent {
+                display: flex;
+            }
+            .dropdownContent {
+                flex-direction: column;
+
+                background-color: white;
+
+                border: 1px solid gray;
+
+                padding: 10px;
+
+                display: none;
+                position: absolute;
+
+                &:hover .dropdown {
+                    color: black !important;
+                }
+
+                a {
+                    color: gray;
+
+                    transition: color 0.2s ease-in-out;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
     }
 }
