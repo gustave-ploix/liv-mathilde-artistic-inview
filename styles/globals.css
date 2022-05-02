@@ -11,6 +11,13 @@ a {
   text-decoration: none;
 }
 
+#__next {
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
 * {
   box-sizing: border-box;
 }
