@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0 50px;
 
+    // position: fixed;
+
     position: relative;
 
     display: flex;
@@ -12,7 +14,10 @@
     justify-content: space-between;
 
     // border: 1px dotted black;
-
+    // @media (max-width: 1120px) {
+    //     display: none;
+    // }
+    
     .logoContainer {
         width: 136px;
         height: 43px;
@@ -24,6 +29,7 @@
         .logoImg {
             width: 100%;
         }
+
     }   
 
     .navLinks {
@@ -35,9 +41,22 @@
         min-width: 880px;
         width: 40%;
 
+        
+        // display: none;
+        // @media (max-width: 1120px) {
+        // }
+
+        &:hover > p, &:hover .dropdown > p {
+            color: gray;
+        }
+
+        // &:hover > .dropdown > p {
+        //     color: gray;
+        // }
 
         p {
             
+
             font-size: 13px;
 
             a {
@@ -49,7 +68,7 @@
             }
         }
 
-        
+
         .dropdown {
             &:hover .dropdownContent {
                 display: flex;
