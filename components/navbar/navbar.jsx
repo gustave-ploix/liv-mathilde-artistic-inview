@@ -21,12 +21,9 @@ export default function Navbar() {
                 <div className={styles.dropdown}>
 
                     <p>
-                        <a href="#">
-                            ARTWORK
-                        </a>
+                        <a href="#">ARTWORK</a>
                     </p>
-                    <div
-                        className={styles.dropdownContent}>
+                    <div className={styles.dropdownContent}>
                         <a href="#">DOUSED SILK</a>
                         <a href="#">MY BROKEN THINGS WITH LOVE...</a>
                     </div>
