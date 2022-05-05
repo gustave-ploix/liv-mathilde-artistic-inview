@@ -19,9 +19,8 @@ export default function HamburgerMenu() {
                 <div
                     onClick={() => setOpenned(!openned)}
                     className={styles.hamburgerBtn}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className={openned ? styles.opennedBtn : styles.button}></div>
+                    <div className={openned ? styles.opennedBtn : styles.button}></div>
                 </div>
 
                 <Image 
@@ -41,7 +40,12 @@ export default function HamburgerMenu() {
 
                 <div className={styles.navLinksContainer}>
                     <p><a href="#">ARTISTIC (IN)VIEW STUDIO</a></p>
-                    <p><a href="#"> ARTWORK (DROPDOWN)</a></p>
+                    
+                    <div>
+                    <p><a href="#"> ARTWORK</a></p>
+                    <p className={styles.dropdownLinks}><a href="#">........DOUSED SILK</a></p>
+                    <p className={styles.dropdownLinks}><a href="#">........MY BROKEN THINGS WITH LOVE</a></p>
+                    </div>
                     <p><a href="#">NUEE</a></p>
                     <p><a href="#">DESIGN TEXTILE</a></p>
                     <p><a href="#">VISUAL RESEARCH</a></p>
