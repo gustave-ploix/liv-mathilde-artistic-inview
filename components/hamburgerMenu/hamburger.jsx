@@ -8,16 +8,12 @@ import HamburgerLayout from "./hamburgerLayout";
 import styles from './hamburger.module.scss';
 
 export default function HamburgerMenu() {
-
+    
     const [openned, setOpenned] = useState(false);;
-
-    useEffect(() => {
-        setOpenned(false);
-    }, []);
 
     return (
 
-        <HamburgerLayout >
+        <HamburgerLayout>
 
             <div className={styles.hamburgerNavbar}>
                 <div
@@ -28,9 +24,7 @@ export default function HamburgerMenu() {
                     <div></div>
                 </div>
 
-                {/* <img src="../../assets/images/logo.jpg" alt="" /> */}
                 <Image 
-
                     width={136}
                     height={43}
                     objectFit="contain"
@@ -40,13 +34,9 @@ export default function HamburgerMenu() {
 
             </div>
             <section className={styles.navigationSection}
-
                 style={{
-
                     left: openned ? "0px" : "-100%"
-
                 }}
-
             >
 
                 <div className={styles.navLinksContainer}>
