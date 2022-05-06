@@ -1,12 +1,12 @@
 .heroLayout {
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
 
     position: relative;
 
     .bannerContainer {
         width: 100%;
-        height: calc(50% - 200px);
+        height: calc(100% - 200px);
 
         position: relative;
 
@@ -21,63 +21,12 @@
             bottom: 20px;
             transform: translateX(-50%);
 
-            // background-color: red;
-
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
 
-            @media(max-width: 1200px) {
-                bottom: 50px;
-            }
-            @media(max-width: 800px) {
-                width: 575px;
-
-                .linkContainer {
-                    width: 100%;
-
-                    p {
-                        font-size: 13px;
-                    }
-                }
-            }
-            @media (max-width: 610px) {
-                width: 475px;
-
-                .linkContainer > p {
-                    font-size: 11px;
-                }
-            }
-
-            @media(max-width: 500px) {
-                width: 400px;
-                height: 350px;
-                
-
-                .linkContainer  {
-                    width: 77% !important;
-                    // background-color: blue;
-                    
-                    p {
-                        display: flex;
-                        align-items: center;
-                        flex-direction: column;
-                        font-size: 11px;
-                    }
-                }
-            }
-            @media(max-width: 430px) {
-                width: 345px;
-
-                h1 {
-                    font-size: 22px !important;
-                }
-
-                h2 {
-                    font-size: 20px !important;
-                }
-            }
+            
 
             .separator {
                 width: 100%;
@@ -107,14 +56,11 @@
             }
 
             .linkContainer {
-                // background-color: red;
                 width: 92%;
 
                 margin: auto;
 
                 p {
-                    // display: flex;
-                    // justify-content: space-around;
                     text-align: center;
                     letter-spacing: 3px;
                     font-weight: 300;
@@ -122,9 +68,6 @@
                     color: lighten($color: gray, $amount: 30);
 
                     a {
-                        text-decoration: underline;
-                        // text-decoration: none;
-
                         position: relative;
                         color: white;
 
@@ -140,11 +83,6 @@
                 height: 30px;
 
                 position: relative;
-                // top: 10px;
-
-                // background-color: red;
-
-                // margin: 10px;
 
                 cursor: pointer;
 
@@ -161,7 +99,6 @@
                     }
 
                     &:nth-child(2) {
-                        // transform: translateY(-1px) translateX(-50%) rotate(-45deg);
                         transform: translate(30%, -1px) rotate(-45deg);
                     }
                 }
@@ -169,4 +106,62 @@
         }
     }
 
+}
+
+
+//responsive
+.heroLayout {
+    .bannerContainer {
+        .cartel {
+            @media(max-width: 1200px) {
+                bottom: 50px;
+            }
+            @media(max-width: 800px) {
+                width: 575px;
+
+                .linkContainer {
+                    width: 100%;
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+            @media (max-width: 610px) {
+                width: 475px;
+
+                .linkContainer > p {
+                    font-size: 11px;
+                }
+            }
+
+            @media(max-width: 500px) {
+                width: 400px;
+                height: 350px;
+                
+
+                .linkContainer  {
+                    width: 77%;
+                    
+                    p {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        font-size: 11px;
+                    }
+                }
+            }
+            @media(max-width: 430px) {
+                width: 345px;
+
+                h1 {
+                    font-size: 22px;
+                }
+
+                h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }
