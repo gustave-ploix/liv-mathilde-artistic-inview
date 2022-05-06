@@ -9,27 +9,75 @@
         height: calc(50% - 200px);
 
         position: relative;
-        // img {
-        //     width: 50%;
-        //     height: 50%;
-        // }
 
         .cartel {
 
-            width: 40%;
+            width: 675px;
             height: 250px;
+
 
             position: absolute;
             left: 50%;
             bottom: 20px;
             transform: translateX(-50%);
 
-            // background-color: blue;
+            // background-color: red;
 
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
+
+            @media(max-width: 1200px) {
+                bottom: 50px;
+            }
+            @media(max-width: 800px) {
+                width: 575px;
+
+                .linkContainer {
+                    width: 100%;
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+            @media (max-width: 610px) {
+                width: 475px;
+
+                .linkContainer > p {
+                    font-size: 11px;
+                }
+            }
+
+            @media(max-width: 500px) {
+                width: 400px;
+                height: 350px;
+                
+
+                .linkContainer  {
+                    width: 77% !important;
+                    // background-color: blue;
+                    
+                    p {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        font-size: 11px;
+                    }
+                }
+            }
+            @media(max-width: 430px) {
+                width: 345px;
+
+                h1 {
+                    font-size: 22px !important;
+                }
+
+                h2 {
+                    font-size: 20px !important;
+                }
+            }
 
             .separator {
                 width: 100%;
@@ -71,10 +119,10 @@
                     letter-spacing: 3px;
                     font-weight: 300;
                     line-height: 30px;
-                    color: lighten($color: gray, $amount: 40);
+                    color: lighten($color: gray, $amount: 30);
 
                     a {
-                        // text-decoration: underline
+                        text-decoration: underline;
                         // text-decoration: none;
 
                         position: relative;
@@ -82,23 +130,6 @@
 
                         &:hover {
                             color: lighten($color: gray, $amount: 40);
-                        }
-
-                        &::hover::after {
-                            background-color: lighten($color: gray, $amount: 40);
-                        }
-
-
-                        &::after {
-                            content: "";
-
-                            width: 98%;
-                            height: 1px;
-                            background-color: white;
-
-                            position: absolute;
-                            left: 0px;
-                            bottom: -5px;
                         }
                     }
                 }
@@ -109,9 +140,9 @@
                 height: 30px;
 
                 position: relative;
-                top: 10px;
+                // top: 10px;
 
-                // background-color: blue;
+                // background-color: red;
 
                 // margin: 10px;
 
