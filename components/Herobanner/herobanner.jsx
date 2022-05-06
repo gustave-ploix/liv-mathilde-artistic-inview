@@ -34,15 +34,12 @@ export default function Herobanner() {
                     <div className={styles.linkContainer}>
                         <p>
                             <a href="#">VISAL RESEARCH DESIGNER </a>
-                            -
                             <em> COULEURS & MATIÈRE </em>
-                            -
                             <a href="#"> DESIGN TEXTILE</a>
                         </p>
                         <p>
                             <a href="#">DIRECTION ARTISTIQUE & CRÉATIVE </a>
-                            -
-                            <em> PHOTO STYLINE</em>
+                            <em> PHOTO STYLING</em>
                         </p>
                     </div>
                         <div
