@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import AboutSection from '../components/aboutSection/aboutSection'
+import Footer from '../components/footer/footer'
 import Herobanner from '../components/Herobanner/herobanner'
 import ImageSection from '../components/imageSection/ImageSection'
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Herobanner />
       <AboutSection /> 
       <ImageSection />
+      <Footer />
     
     </div>
   )
