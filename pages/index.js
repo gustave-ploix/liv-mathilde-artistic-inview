@@ -1,5 +1,6 @@
 
 import Head from 'next/head'
+import AboutSection from '../components/aboutSection/aboutSection'
 import Herobanner from '../components/Herobanner/herobanner'
 
 import styles from '../styles/Home.module.css'
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
 
       <Herobanner />
+      <AboutSection /> 
     
     </div>
   )
