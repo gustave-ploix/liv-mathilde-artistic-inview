@@ -6,6 +6,7 @@
 
 
     position: relative;
+    bottom: 50px;
 
     .left {
         width: 40%;
@@ -33,11 +34,12 @@
             border-bottom: 1px solid lightgray;
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
 
 
 
             h3 {
+                margin: 0 20px;
                 font-weight: 400;
                 letter-spacing: 4px;
             }
@@ -92,6 +94,7 @@
 
             .presentationHeader {
                 width: 80%;
+                justify-content: space-around;
             }
 
             .presentationTitle {
@@ -101,6 +104,12 @@
             .presentationText {
                 text-align: center;
             }
+        }
+    }
+
+    @media(max-width: 800px) {
+        .right > .presentationHeader {
+            flex-direction: column;
         }
     }
 
