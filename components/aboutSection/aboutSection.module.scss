@@ -1,6 +1,6 @@
 .aboutSection {
     width: 100vw;
-    height: 50vh;
+    min-height: 50vh;
 
     display: flex;
 
@@ -75,7 +75,7 @@
     @media(max-width: 1050px) {
         flex-direction: column;
 
-        height: 100vh;
+        min-height: 70vh;
 
         .left, .right {
             width: 100%;
