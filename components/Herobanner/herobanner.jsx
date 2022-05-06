@@ -24,8 +24,9 @@ export default function Herobanner() {
                 <Image
                 objectPosition="center"
                     layout="fill"
+                    placeholder='blur'
                     objectFit="cover"
-                    quality={80}
+                    quality={100}
                     src={imgHeroBanner} />
                 <div className={styles.cartel}>
                     <h1>artistic (<i>IN</i>)View</h1>
