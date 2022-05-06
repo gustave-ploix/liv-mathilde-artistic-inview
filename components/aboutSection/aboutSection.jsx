@@ -12,7 +12,9 @@ export default function aboutSection() {
             </div>
             <div className={styles.right}>
                 <div className={styles.presentationHeader}>
-                    <h3>Observation - Intention - Réflexion Visuelle</h3>
+                    <h3>Observation</h3>
+                    <h3>Intention</h3>
+                    <h3>Réflexion Visuelle</h3>
                 </div>
                 <div>
                     <h4 className={styles.presentationTitle}><em>Artistic (in)view</em></h4>
