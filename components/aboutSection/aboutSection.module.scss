@@ -4,7 +4,6 @@
 
     display: flex;
 
-    // background-color: blue;
 
     position: relative;
 
@@ -12,13 +11,8 @@
         width: 40%;
         height: 100%;
 
-        // border: 1px solid black;
-
         display: flex;
         justify-content: center;
-
-        // padding-top: 50px;
-        // background-color: blue;
 
         h2 {
             font-weight: 300;
@@ -76,34 +70,20 @@
 
 .aboutSection {
 
-    // @media (max-xidth: 1050px) {
-    //     .right {
-    //         .presentationHeader {
-    //             h3 {
-    //                 letter-spacing: 2px;
-    //             }
-    //         }
-    //     }
-    // }
-
     @media(max-width: 1050px) {
         flex-direction: column;
 
         height: 100vh;
 
         .left, .right {
-            // background-color: blue;
             width: 100%;
         }
 
         .left {
-            // background-color: blue;
             height: 100px;
         }
 
         .right {
-            // .presentationHeader {
-            // }
             padding: 0 20px;
 
             display: flex;
@@ -115,12 +95,10 @@
             }
 
             .presentationTitle {
-                // background-color: blue;
                 text-align: center;
             }
 
             .presentationText {
-                // background-color: blue;
                 text-align: center;
             }
         }
@@ -129,15 +107,12 @@
     @media(max-width: 700px) {
         .right {
             .presentationHeader {
-                // display: flex;
                 flex-direction: column;
-                // justify-content: ;
 
 
                 justify-content: space-between;
 
                 h3 {
-                    // background-color: blue;
                     margin: 0;
                 }
             }
