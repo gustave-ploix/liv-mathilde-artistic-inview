@@ -22,6 +22,7 @@ export default function Herobanner() {
             <div  className={styles.bannerContainer}>
 
                 <Image
+                objectPosition="center"
                     layout="fill"
                     objectFit="cover"
                     quality={80}
