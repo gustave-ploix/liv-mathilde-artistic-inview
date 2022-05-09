@@ -36,15 +36,19 @@
     .navLinks {
         display: flex;
         justify-content: space-around;
+        align-items: center;
 
         min-width: 880px;
         width: 40%;
 
-        &:hover > p, &:hover .dropdown > p {
+        // background-color: blue;
+        height: 15px;
+
+        &:hover  > .navLink, &:hover .dropdown > p > .navLink {
             color: gray;
         }
 
-        p {
+        .navLink {
             
 
             font-size: 13px;
@@ -53,7 +57,7 @@
                 transition: color 0.2s ease-in-out;
             }
 
-            a:hover {
+            &:hover {
                 color: black !important;
             }
         }
