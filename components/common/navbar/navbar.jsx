@@ -4,7 +4,7 @@ import styles from './navbar.module.scss';
 
 import NavbarLayout from './NavbarLayout';
 
-import logo from '../../assets/images/logo.jpg';
+import logo from '../../../assets/images/logo.jpg';
 
 export default function Navbar() {
 

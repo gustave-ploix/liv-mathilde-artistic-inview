@@ -1,7 +1,7 @@
 import styles from './contact.module.scss';
 
 import Image from 'next/image';
-import artworkImage from '../../assets/images/landing page/artwork.jpg';
+import artworkImage from '../../../assets/images/landing page/artwork.jpg';
 
 
 import ContactLayout from './ContactLayout'

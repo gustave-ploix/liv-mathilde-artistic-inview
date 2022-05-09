@@ -1,5 +1,5 @@
-import Navbar from '../components/navbar/navbar';
-import HamburgerMenu from '../components/hamburgerMenu/hamburger';
+import Navbar from '../components/common/navbar/navbar';
+import HamburgerMenu from '../components/common/hamburgerMenu/hamburger';
 
 import '../styles/globals.css'
 

@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 
 import Image from 'next/image';
-import fullImage from '../../assets/images/landing page/broken_assiette.jpg';
+import fullImage from "../../../assets/images/landing page/broken_assiette.jpg";
 
 import ImageSectionLayout from "./ImageSectionLayout";
 

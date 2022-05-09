@@ -1,12 +1,12 @@
 
 import Head from 'next/head'
-import AboutSection from '../components/aboutSection/aboutSection'
-import Contact from '../components/ contact/contact'
-import Herobanner from '../components/Herobanner/herobanner'
-import ImageSection from '../components/imageSection/ImageSection'
+import AboutSection from '../components/landingPage/aboutSection/aboutSection'
+import Contact from '../components/landingPage/contact/contact'
+import Herobanner from '../components/landingPage/Herobanner/herobanner'
+import ImageSection from '../components/landingPage/imageSection/ImageSection'
 
 import styles from '../styles/Home.module.css'
-import Footer from '../components/footer'
+import Footer from '../components/common/footer'
 
 export default function Home() {
 

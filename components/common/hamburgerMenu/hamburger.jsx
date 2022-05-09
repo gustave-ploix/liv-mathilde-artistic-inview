@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import Image from 'next/image';
-import logo from '../../assets/images/logo.jpg';
+import logo from '../../../assets/images/logo.jpg';
 
 import HamburgerLayout from "./hamburgerLayout";
 
