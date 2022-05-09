@@ -9,7 +9,6 @@ export default function Footer() {
     return (
         <FooterLayout>
             <div className={styles.socialContainer}>
-                {/* instagram linkedin */}
                 <p className={styles.logoSVG}>
                     <BsLinkedin />
                 </p>
@@ -18,7 +17,12 @@ export default function Footer() {
                     <BsInstagram />
                 </p>
             </div>
+
+            <div className={styles.separator}></div>
+
             <div className={styles.navLinkContainer}>
+                <div className={styles.hoverableContainer}>
+
                 <p className={styles.navLink}><a href="#">NUÉE</a></p>
                 <p className={styles.navLink}><a href="#">TEXTILE DESIGN</a></p>
                 <p className={styles.navLink}><a href="#">VISUAL RESEARCH</a></p>
@@ -26,6 +30,7 @@ export default function Footer() {
                 <p className={styles.navLink}><a href="#">CONTACT</a></p>
                 <p className={styles.navLink}><a href="#">HOME</a></p>
                 <p className={styles.navLink}><a href="#">CREDITS</a></p>
+                </div>
             </div>
         </FooterLayout>
     )
