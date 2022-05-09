@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 
 import styles from './navbar.module.scss';
@@ -17,23 +18,23 @@ export default function Navbar() {
             </div>
 
             <div className={styles.navLinks}>
-                <p><a href="#">ARTISTIC (IN) VIEW STUDIO</a></p>
+                <Link href="/artistic-in-view-studio"><a className={styles.navLink}>ARTISTIC (IN) VIEW STUDIO</a></Link>
                 <div className={styles.dropdown}>
 
                     <p>
-                        <a href="#">ARTWORK</a>
+                        <a className={styles.navLink} href="#">ARTWORK</a>
                     </p>
                     <div className={styles.dropdownContent}>
-                        <a href="#">DOUSED SILK</a>
-                        <a href="#">MY BROKEN THINGS WITH LOVE...</a>
+                        <Link href='/'><a className={styles.navLink} href="#">DOUSED SILK</a></Link>
+                        <Link href='/'><a className={styles.navLink} href="#">MY BROKEN THINGS WITH LOVE...</a></Link>
                     </div>
                 </div>
-                <p><a href="#">NUEE</a></p>
-                <p><a href="#">DESIGN TEXTILE</a></p>
-                <p><a href="#">VISUAL RESEARCH</a></p>
-                <p><a href="#">ABOUT</a></p>
-                <p><a href="#">CONTACT</a></p>
-                <p><a href="#">HOME</a></p>
+                <Link href='/'><a className={styles.navLink} href="#">NUEE</a></Link>
+                <Link href='/'><a className={styles.navLink} href="#">DESIGN TEXTILE</a></Link>
+                <Link href='/'><a className={styles.navLink} href="#">VISUAL RESEARCH</a></Link>
+                <Link href='/'><a className={styles.navLink} href="#">ABOUT</a></Link>
+                <Link href='/'><a className={styles.navLink} href="#">CONTACT</a></Link>
+                <Link href='/'><a className={styles.navLink} href="#">HOME</a></Link>
             </div>
         </NavbarLayout>
 
