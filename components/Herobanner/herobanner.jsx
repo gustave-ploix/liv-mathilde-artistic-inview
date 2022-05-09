@@ -62,13 +62,13 @@ export default function Herobanner() {
                             <em> PHOTO STYLING</em>
                         </p>
                     </div>
-                        <div
+                        <button
                             ref={imageContainer}
                             onClick={handleScrollView}
                         className={styles.arrowContainer}>
                             <div className={styles.arrowBranch}></div>
                             <div className={styles.arrowBranch}></div>
-                        </div>
+                        </button>
                 </div>
             </div>
         </HeroLayout>
