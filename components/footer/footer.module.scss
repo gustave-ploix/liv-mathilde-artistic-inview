@@ -66,3 +66,48 @@
         }
     }
 }
+
+//responsive 
+
+.footerContainer {
+    @media(max-width: 1120px) {
+        .socialContainer {
+            margin-top: 20px;
+        }
+        .navLinkContainer {
+            // background-color: blue;
+
+            width: 40%;
+
+            .hoverableContainer {
+                // flex-direction: column;
+                flex-wrap: wrap;
+
+                p {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    @media(max-width: 860px) {
+        .navLinkContainer {
+            width: 50%;
+        }
+    }
+    @media(max-width: 680px) {
+        .navLinkContainer {
+            width: 70%;
+        }
+    }
+    @media(max-width: 495px) {
+        .navLinkContainer {
+            width: 80%;
+            height: 300px;
+
+            .hoverableContainer {
+                flex-direction: column;
+            }
+        }
+    }
+}
