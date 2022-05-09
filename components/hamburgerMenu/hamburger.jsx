@@ -18,7 +18,10 @@ export default function HamburgerMenu() {
             <div className={styles.hamburgerNavbar}>
                 <div
                     onClick={() => setOpenned(!openned)}
-                    className={styles.hamburgerBtn}>
+                    className={styles.hamburgerBtn}
+                    style={{
+                        position: openned ? "fixed" : "absolute"
+                    }}>
                     <div className={openned ? styles.opennedBtn : styles.button}></div>
                     <div className={openned ? styles.opennedBtn : styles.button}></div>
                 </div>
