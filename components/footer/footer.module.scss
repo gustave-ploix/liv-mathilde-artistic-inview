@@ -1,0 +1,68 @@
+.footerContainer {
+    width: 100vw;
+    height: 200px;
+
+    position: relative;
+
+    .socialContainer {
+        width: 100%;
+        height: 30%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            margin: 20px;
+        }
+    }
+
+    .separator {
+        width: 80%;
+        height: 1px;
+
+        background-color: lightgray;
+
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .navLinkContainer {
+        width: 60%;
+        height: 70%;
+
+        margin: auto;
+
+        position: relative;
+
+        .hoverableContainer {
+
+            width: 100%;
+
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            p {
+                font-size: 15px;
+                font-weight: 300;
+
+                transition: color 0.2s ease-in-out;
+
+                &:hover {
+
+                    color: black !important;
+
+                }
+            }
+
+            &:hover>p {
+                color: gray;
+            }
+        }
+    }
+}
