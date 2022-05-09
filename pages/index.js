@@ -6,6 +6,7 @@ import Herobanner from '../components/Herobanner/herobanner'
 import ImageSection from '../components/imageSection/ImageSection'
 
 import styles from '../styles/Home.module.css'
+import Footer from '../components/footer'
 
 export default function Home() {
 
@@ -21,6 +22,8 @@ export default function Home() {
       <AboutSection /> 
       <ImageSection />
       <Contact />
+
+      <Footer />
     
     </div>
   )
