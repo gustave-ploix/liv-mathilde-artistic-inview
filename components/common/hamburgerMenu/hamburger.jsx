@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Link from 'next/link';
 
 import Image from 'next/image';
 import logo from '../../../assets/images/logo.jpg';
@@ -8,7 +9,7 @@ import HamburgerLayout from "./hamburgerLayout";
 import styles from './hamburger.module.scss';
 
 export default function HamburgerMenu() {
-    
+
     const [openned, setOpenned] = useState(false);;
 
     return (
@@ -26,11 +27,12 @@ export default function HamburgerMenu() {
                     <div className={openned ? styles.opennedBtn : styles.button}></div>
                 </div>
 
-                <Image 
+                <Image
+                    alt="logo Image"
                     width={136}
                     height={43}
                     objectFit="contain"
-                    src={logo} 
+                    src={logo}
                     className={styles.logo}
                 />
 
@@ -42,18 +44,17 @@ export default function HamburgerMenu() {
             >
 
                 <div className={styles.navLinksContainer}>
-                    <p><a href="#">ARTISTIC (IN)VIEW STUDIO</a></p>
-                    
+                    <Link href="/artistic-in-view-studio"><a>ARTISTIC (IN)VIEW STUDIO</a></Link>
                     <div>
-                    <p><a href="#"> ARTWORK</a></p>
-                    <p className={styles.dropdownLinks}><a href="#">........DOUSED SILK</a></p>
-                    <p className={styles.dropdownLinks}><a href="#">........MY BROKEN THINGS WITH LOVE</a></p>
+                        <Link href="/"><a> ARTWORK</a></Link>
+                        <Link href="/"><a className={styles.dropdownLinks} href="#">........DOUSED SILK</a></Link>
+                        <Link href="/"><a>........MY BROKEN THINGS WITH LOVE</a></Link>
                     </div>
-                    <p><a href="#">NUEE</a></p>
-                    <p><a href="#">DESIGN TEXTILE</a></p>
-                    <p><a href="#">VISUAL RESEARCH</a></p>
-                    <p><a href="#">ABOUT</a></p>
-                    <p><a href="#">CONTACT</a></p>
+                    <Link href="/"><a>NUEE</a></Link>
+                    <Link href="/"><a>DESIGN TEXTILE</a></Link>
+                    <Link href="/"><a>VISUAL RESEARCH</a></Link>
+                    <Link href="/"><a>ABOUT</a></Link>
+                    <Link href="/"><a>CONTACT</a></Link>
                 </div>
 
             </section>

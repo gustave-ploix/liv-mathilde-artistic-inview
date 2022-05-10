@@ -18,6 +18,7 @@ export default function Footer() {
 
                         <Image
                             src={artworkImage}
+                            alt="image composition with papers"
                             layout="fill"
                             objectFit='cover'
                             objectPosition="center"

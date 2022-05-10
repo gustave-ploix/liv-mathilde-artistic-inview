@@ -44,6 +44,7 @@ export default function Herobanner() {
                     objectFit="cover"
                     quality={100}
                     src={imgHeroBanner}
+                    alt="curtain image in black and white by virginie pérocheau"
                     style={{
                         transform: `translateY(${offsetY * 0.5}px)`
                     }} />

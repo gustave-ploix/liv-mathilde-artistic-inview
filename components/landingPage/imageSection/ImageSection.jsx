@@ -9,10 +9,6 @@ export default function imageSection() {
 
     //parallax
 
-    const test = useRef();
-
-    console.log(test.current);
-
     const [offsetY, setOffsetY] = useState(0);
 
     function handleScroll() {
@@ -31,8 +27,8 @@ export default function imageSection() {
 
         <ImageSectionLayout>
             <Image
-                ref={test}
                 src={fullImage}
+                alt="broken plate"
                 layout="fill"
                 objectFit='cover'
                 objectPosition="center"
