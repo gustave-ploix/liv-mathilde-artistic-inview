@@ -4,22 +4,26 @@ import Image from 'next/image';
 
 import styles from './imageWrapper.module.scss';
 
-export default function imageWrapper({ image1, image2 }) {
+export default function imageWrapper({ image1, image2, classname }) {
 
     if (image2 != null) {
         return (
             <ImageWrapperLayout>
-                <div className={styles.galleryContainer}>
-                    <Image src={image1} />
-                    <Image src={image2} />
+                <div className={classname}>
+                    <div className={styles.equalSizes}>
+                        <Image src={image1} quality="100" layout='fill' objectPosition="top" objectFit='cover' />
+                    </div>
+                    <div className={styles.equalSizes}>
+                        <Image src={image2} quality="100" layout='fill' objectPosition="bottom" objectFit='cover' />
+                    </div>
                 </div>
             </ImageWrapperLayout>
         )
     } else {
         return (
             <ImageWrapperLayout>
-                <div className={styles.imageContainer}>
-                    <Image src={image1} />
+                <div className={classname}>
+                    <Image src={image1} layout="fill" objectFit='cover' objectPosition="center" quality="100" />
                 </div>
             </ImageWrapperLayout>
         )

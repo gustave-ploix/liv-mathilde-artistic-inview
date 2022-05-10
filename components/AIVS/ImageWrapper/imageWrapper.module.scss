@@ -1,0 +1,50 @@
+.imageWrapperContainer {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 25px 0;
+
+    position: relative;
+
+
+
+    .firstImage {
+        width: 50%;
+        height: 100%;
+
+        position: relative;
+    }
+
+    .secondImage {
+        width: 80%;
+        height: 95%;
+
+
+        position: relative;
+
+    }
+
+    .thirdWrapper {
+        width: 90%;
+        height: 100%;
+
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        // margin-bottom: 100px;
+
+        .equalSizes {
+            width: 48%;
+            height: 100%;
+
+            position: relative;
+        }
+    }
+}
