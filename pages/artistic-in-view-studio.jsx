@@ -1,5 +1,11 @@
+import Footer from '../components/common/footer';
+
 export default function ArtisticInViewStudio() {
     return (
-        <h1>bonjour</h1>
+        <>
+
+
+            <Footer />
+        </>
     )
 }
