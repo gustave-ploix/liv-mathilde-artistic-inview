@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 import styles from './imageWrapper.module.scss';
 
-export default function imageWrapper({ image1, image2, classname }) {
+export default function imageWrapper({ image1, image2, classname, containerName }) {
 
     if (image2 != null) {
         return (
-            <ImageWrapperLayout>
+            <ImageWrapperLayout secondLayerClassname={containerName}>
                 <div className={classname}>
                     <div className={styles.equalSizes}>
                         <Image src={image1} quality="100" layout='fill' objectPosition="top" objectFit='cover' />
@@ -21,7 +21,7 @@ export default function imageWrapper({ image1, image2, classname }) {
         )
     } else {
         return (
-            <ImageWrapperLayout>
+            <ImageWrapperLayout secondLayerClassname={containerName}>
                 <div className={classname}>
                     <Image src={image1} layout="fill" objectFit='cover' objectPosition="center" quality="100" />
                 </div>
