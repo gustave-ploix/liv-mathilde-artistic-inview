@@ -5,7 +5,7 @@ import fullImage from "../../../assets/images/landing page/broken_assiette.jpg";
 
 import ImageSectionLayout from "./ImageSectionLayout";
 
-export default function imageSection() {
+export default function ImageSection() {
 
     //parallax
 
