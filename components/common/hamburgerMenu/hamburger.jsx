@@ -12,6 +12,10 @@ export default function HamburgerMenu() {
 
     const [openned, setOpenned] = useState(false);;
 
+    function closeLayout() {
+        setOpenned(false);
+    };
+
     return (
 
         <HamburgerLayout>
@@ -44,17 +48,17 @@ export default function HamburgerMenu() {
             >
 
                 <div className={styles.navLinksContainer}>
-                    <Link href="/artistic-in-view-studio"><a>ARTISTIC (IN)VIEW STUDIO</a></Link>
-                    <div>
-                        <Link href="/"><a> ARTWORK</a></Link>
-                        <Link href="/"><a className={styles.dropdownLinks} href="#">........DOUSED SILK</a></Link>
-                        <Link href="/"><a>........MY BROKEN THINGS WITH LOVE</a></Link>
+                    <Link  href="/artistic-in-view-studio"><a onClick={closeLayout}>ARTISTIC (IN)VIEW STUDIO</a></Link>
+                    <div className={styles.dropdownContainer}>
+                        <Link href="/"><a onClick={closeLayout}> ARTWORK</a></Link>
+                        <Link href="/"><a onClick={closeLayout}>........DOUSED SILK</a></Link>
+                        <Link href="/"><a onClick={closeLayout}>........MY BROKEN THINGS WITH LOVE</a></Link>
                     </div>
-                    <Link href="/"><a>NUEE</a></Link>
-                    <Link href="/"><a>DESIGN TEXTILE</a></Link>
-                    <Link href="/"><a>VISUAL RESEARCH</a></Link>
-                    <Link href="/"><a>ABOUT</a></Link>
-                    <Link href="/"><a>CONTACT</a></Link>
+                    <Link href="/"><a onClick={closeLayout}>NUEE</a></Link>
+                    <Link href="/"><a onClick={closeLayout}>DESIGN TEXTILE</a></Link>
+                    <Link href="/"><a onClick={closeLayout}>VISUAL RESEARCH</a></Link>
+                    <Link href="/"><a onClick={closeLayout}>ABOUT</a></Link>
+                    <Link href="/"><a onClick={closeLayout}>CONTACT</a></Link>
                 </div>
 
             </section>

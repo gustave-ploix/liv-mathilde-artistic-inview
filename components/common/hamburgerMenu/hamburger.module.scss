@@ -94,6 +94,11 @@
                     color: lighten($color: black, $amount: 50);
                 }
             }
+
+            .dropdownContainer {
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
 }
