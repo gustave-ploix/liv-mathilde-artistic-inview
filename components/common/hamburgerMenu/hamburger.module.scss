@@ -98,6 +98,12 @@
             .dropdownContainer {
                 display: flex;
                 flex-direction: column;
+
+                a {
+                    &:nth-child(2), &:nth-child(3) {
+                        margin: 10px 0;
+                    }
+                }
             }
         }
     }
