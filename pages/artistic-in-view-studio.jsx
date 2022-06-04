@@ -8,6 +8,9 @@ import raniaImage from '../assets/images/AIVS/rania.jpg';
 import researchGoldRing from '../assets/images/AIVS/research_gold_ring.png';
 import researchYellowPull from '../assets/images/AIVS/research_yellow_pull.jpg';
 import researchYellowPull2 from '../assets/images/AIVS/research_yellow_pull_2.jpg';
+import natureMorteOne from '../assets/images/AIVS/artistic-in-view-nature-morte-111b.jpg';
+import natureMorteTwo from '../assets/images/AIVS/artistic-in-view-nature-morte-112.jpg';
+
 
 import styles from '../components/AIVS/ImageWrapper/imageWrapper.module.scss';
 
@@ -18,9 +21,10 @@ export default function ArtisticInViewStudio() {
                 <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
                 <title>Artistic (in) view studio</title>
             </Head>
+            <ImageWrapper image1={natureMorteOne} image2={natureMorteTwo} containerName={styles.headerContainer} classname={styles.imagesHeader} />
             <ImageWrapper image1={researchYellowPull2} image2={null} containerName={styles.firstContainer} classname={styles.firstImage} />
             <ImageWrapper image1={researchGoldRing} image2={null} containerName={styles.secondContainer} classname={styles.secondImage} />
-            <ImageWrapper image1={researchYellowPull} image2={raniaImage} containerName={styles.thirdContainer} classname={styles.thirdWrapper} />
+         <ImageWrapper image1={researchYellowPull} image2={raniaImage} containerName={styles.thirdContainer} classname={styles.thirdWrapper} />  
 
             <Footer />
         </>
