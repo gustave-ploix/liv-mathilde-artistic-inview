@@ -1,0 +1,29 @@
+.textWrapper {
+    width: 100vw;
+    height: auto;
+
+    padding: 0 200px;
+    margin: 100px 0;
+    margin-bottom: 150px;
+
+
+    position: relative;
+
+
+    .textContainer {
+        width: 50%;
+
+        p {
+            font-weight: 150;
+            font-size: 18px;
+            line-height: 30px;
+
+            margin: 30px 0;
+
+
+            a {
+                font-weight: 500;
+            }
+        }
+    }
+}
