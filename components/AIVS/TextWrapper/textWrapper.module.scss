@@ -27,3 +27,59 @@
         }
     }
 }
+
+
+
+//responsive 
+
+.textWrapper {
+    @media (max-width: 1300px) {
+        // padding: 0 100px;
+    
+        .textContainer {
+            width: 550px;
+        }
+    }
+    @media(max-width: 930px) {
+        padding: 0;
+
+        .textContainer {
+            margin: auto;
+        }
+
+    }
+
+    @media(max-width: 750px) {
+
+        margin-bottom: 50px;
+
+        .textContainer {
+            width: 450px;
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media (max-width: 550px) {
+        .textContainer {
+            width: 400px;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        .textContainer {
+            width: 330px;
+
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
+}
