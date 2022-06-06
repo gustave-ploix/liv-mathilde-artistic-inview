@@ -9,12 +9,24 @@
 
         margin: auto;
 
+        
         display: flex;
-
+        
         position: relative;
-
+        
         .images {
+            margin: 15px;
             min-width: 50%;
+        }
+    }
+}
+
+//responsive 
+
+.headerWrapper {
+    @media(max-width: 650px) {
+        .headerContainer {
+            flex-direction: column;
         }
     }
 }
