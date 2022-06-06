@@ -1,0 +1,20 @@
+.headerWrapper {
+    width: 100vw;
+
+    position: relative;
+
+    .headerContainer {
+        width: 95%;
+        height: auto;
+
+        margin: auto;
+
+        display: flex;
+
+        position: relative;
+
+        .images {
+            min-width: 50%;
+        }
+    }
+}
