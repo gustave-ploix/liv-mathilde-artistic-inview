@@ -20,6 +20,7 @@ export default function ArtisticInViewStudio() {
             <Head>
                 <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
                 <title>Artistic (in) view studio</title>
+                <meta name="description" content="page presenting the Artistic in view studio, a collaboration between Liv Mathilde Mechin and Virginie Pérocheau" />
             </Head>
             <HeaderWrapper />
             <TextWrapper />

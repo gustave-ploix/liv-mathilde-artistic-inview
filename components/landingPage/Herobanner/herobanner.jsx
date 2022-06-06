@@ -54,19 +54,21 @@ export default function Herobanner() {
                     <div className={styles.separator}></div>
                     <div className={styles.linkContainer}>
                         <p>
-                            <a href="#">VISAL RESEARCH DESIGNER </a>
-                            <em> COULEURS & MATIÈRE </em>
-                            <a href="#"> DESIGN TEXTILE</a>
+                            <a className={styles.links} href="#">VISAL RESEARCH DESIGNER </a>
+                             COULEURS & MATIÈRE 
+                            <a className={styles.links} href="#"> DESIGN TEXTILE</a>
                         </p>
                         <p>
-                            <a href="#">DIRECTION ARTISTIQUE & CRÉATIVE </a>
-                            <em> PHOTO STYLING</em>
+                            <a className={styles.links} href="#">DIRECTION ARTISTIQUE & CRÉATIVE </a>
+                             PHOTO STYLING
                         </p>
                     </div>
                         <button
+                        aria-label='scroll to the next component'
+                        name='scroll into the page'
                             ref={imageContainer}
                             onClick={handleScrollView}
-                        className={styles.arrowContainer}>
+                            className={styles.arrowContainer}>
                             <div className={styles.arrowBranch}></div>
                             <div className={styles.arrowBranch}></div>
                         </button>
