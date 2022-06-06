@@ -11,7 +11,7 @@ export default function TextWrapper() {
 
                 <p>
                     Artistic (in)view Studio est le nom donné au duo formé par <br/>
-                    Liv Mathilde Méchin et <a target="_blank" href="https://www.virginieperocheauphotographe.studio/">Virginie Pérocheau</a>.
+                    Liv Mathilde Méchin et <a target="_blank" rel='noopener noreferrer' href="https://www.virginieperocheauphotographe.studio/">Virginie Pérocheau</a>.
                 </p>
                 <p>
                     Développé à partir des intentions artistiques de Liv Mathilde,
