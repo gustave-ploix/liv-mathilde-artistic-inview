@@ -25,7 +25,7 @@ export default function Navbar() {
                         <a className={styles.navLink} href="#">ARTWORK</a>
                     </p>
                     <div className={styles.dropdownContent}>
-                        <Link href='/'><a className={styles.navLink} href="#">DOUSED SILK</a></Link>
+                        <Link href='/doused-silk'><a className={styles.navLink} href="#">DOUSED SILK</a></Link>
                         <Link href='/'><a className={styles.navLink} href="#">MY BROKEN THINGS WITH LOVE...</a></Link>
                     </div>
                 </div>
