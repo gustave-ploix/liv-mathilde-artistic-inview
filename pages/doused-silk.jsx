@@ -11,6 +11,7 @@ export default function DousedSilk() {
             <Head>
                 <title>Doused Silk</title>
                 <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
+                <meta name="description" content="page presenting the work of Liv Mathilde Mechin, photography on tissue" />
             </Head>
             <HeaderWrapper />
             <TitleContainer />
