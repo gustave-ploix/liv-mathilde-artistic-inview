@@ -14,7 +14,7 @@ export default function HeaderWrapper() {
     
     return (
         <HeaderWrapperLayout>
-            <Image src={headerImage} layout="responsive"/>
+            <Image src={headerImage} quality={100} layout="responsive"/>
         </HeaderWrapperLayout>
     )
 }

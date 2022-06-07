@@ -1,5 +1,5 @@
 import styles from "./titleContainer.module.scss";
 
 export default function TitleContainer({children}) {
-    return <div>{children}</div>
+    return <div className={styles.titleContainer}>{children}</div>
 }
