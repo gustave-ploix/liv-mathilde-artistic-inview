@@ -14,7 +14,7 @@ export default function HeaderWrapper() {
     
     return (
         <HeaderWrapperLayout>
-            <Image src={headerImage} quality={100} layout="responsive"/>
+            <Image src={headerImage} quality={100} alt="image of a drap, made with an analog camera, black and white" layout="responsive"/>
         </HeaderWrapperLayout>
     )
 }
