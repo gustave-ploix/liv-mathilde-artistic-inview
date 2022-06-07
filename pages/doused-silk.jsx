@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import Footer from '../components/common/footer';
+
 export default function DousedSilk() {
     return (
         <>
@@ -7,6 +9,8 @@ export default function DousedSilk() {
                 <title>Doused Silk</title>
                 <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
             </Head>
+
+            <Footer /> 
         </>
     )
 }
