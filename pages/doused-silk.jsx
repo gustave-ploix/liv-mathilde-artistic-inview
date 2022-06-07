@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import HeaderWrapper from '../components/dousedSilk/HeaderWrapper';
+import TitleContainer from '../components/dousedSilk/titleContainer';
 
 import Footer from '../components/common/footer';
 
@@ -12,6 +13,7 @@ export default function DousedSilk() {
                 <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
             </Head>
             <HeaderWrapper />
+            <TitleContainer />
             <Footer /> 
         </>
     )
