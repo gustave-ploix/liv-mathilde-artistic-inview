@@ -1,5 +1,9 @@
 import Head from 'next/head';
 
+import Header from '../components/MBTWL/header/header';
+import TitleContainer from '../components/MBTWL/TitleContainer';
+import Gallery from '../components/MBTWL/gallery';
+
 import Footer from '../components/common/footer';
 
 export default function MyBrokenThings() {
@@ -10,6 +14,10 @@ export default function MyBrokenThings() {
                 <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
                 <title>My broken things</title>
             </Head>
+
+            <Header />
+            <TitleContainer />
+            <Gallery />
 
             <Footer />
         </>
