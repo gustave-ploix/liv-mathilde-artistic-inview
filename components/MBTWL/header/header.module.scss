@@ -1,0 +1,22 @@
+.headerContainer {
+    width: 90%;
+    height: 98vh;
+
+    margin: auto;
+
+    position: relative;
+
+
+    @media(max-width: 1450px) {
+        height: 80vh;
+    }
+
+    @media(max-width: 850px) {
+        height: 70vh;
+    }
+
+    @media(max-width: 560px) {
+        height: 50vh;
+    }
+}
+
