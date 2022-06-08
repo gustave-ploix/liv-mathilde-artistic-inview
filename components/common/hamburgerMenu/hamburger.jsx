@@ -60,8 +60,8 @@ export default function HamburgerMenu() {
                     <Link href="/"><a onClick={closeLayout}>NUEE</a></Link>
                     <Link href="/"><a onClick={closeLayout}>DESIGN TEXTILE</a></Link>
                     <Link href="/"><a onClick={closeLayout}>VISUAL RESEARCH</a></Link>
-                    <Link href="/"><a onClick={closeLayout}>ABOUT</a></Link>
-                    <Link href="/"><a onClick={closeLayout}>CONTACT</a></Link>
+                    <Link href="/about"><a onClick={closeLayout}>ABOUT</a></Link>
+                    <Link href="/contact"><a onClick={closeLayout}>CONTACT</a></Link>
                 </div>
 
             </section>

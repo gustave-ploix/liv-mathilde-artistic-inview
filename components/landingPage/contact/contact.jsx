@@ -6,7 +6,7 @@ import artworkImage from '../../../assets/images/landing page/artwork.jpg';
 
 import ContactLayout from './ContactLayout'
 
-export default function Footer() {
+export default function Contact() {
     return (
 
         <ContactLayout>

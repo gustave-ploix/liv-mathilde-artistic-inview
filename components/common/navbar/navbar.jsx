@@ -34,9 +34,8 @@ export default function Navbar() {
                 <Link href='/'><a className={styles.navLink} href="#">NUEE</a></Link>
                 <Link href='/'><a className={styles.navLink} href="#">DESIGN TEXTILE</a></Link>
                 <Link href='/'><a className={styles.navLink} href="#">VISUAL RESEARCH</a></Link>
-                <Link href='/'><a className={styles.navLink} href="#">ABOUT</a></Link>
-                <Link href='/'><a className={styles.navLink} href="#">CONTACT</a></Link>
-                <Link href='/'><a className={styles.navLink} href="#">HOME</a></Link>
+                <Link href='/about'><a className={styles.navLink} href="#">ABOUT</a></Link>
+                <Link href='/contact'><a className={styles.navLink} href="#">CONTACT</a></Link>
             </div>
         </NavbarLayout>
 
