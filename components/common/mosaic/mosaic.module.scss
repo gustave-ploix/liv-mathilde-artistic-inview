@@ -1,0 +1,67 @@
+.mosaicContainer {
+        
+    width: 100%;
+    height: 1200px;
+
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px 15px;
+    grid-template-areas: 
+    "photo01 photo01 photo02 photo02"
+    "photo01 photo01 photo02 photo02"
+    "photo03 photo03 photo04 photo04"
+    "photo03 photo03 photo04 photo04"; 
+
+    .photo01 {
+        grid-area: photo01;
+        position: relative;
+    }
+    .photo02 {
+        grid-area: photo02;
+        position: relative;
+    }
+    .photo03 {
+        grid-area: photo03;
+        position: relative;
+    }
+    .photo04 {
+        grid-area: photo04;
+        position: relative;
+    }
+
+    @media(max-width: 1300px) {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+
+
+        grid-template-areas: 
+        "photo01"
+        "photo01"
+        "photo02"
+        "photo02"
+        "photo03"
+        "photo03"
+        "photo04"
+        "photo04";   
+
+
+        height: 3000px;
+    }
+
+
+    @media(max-width: 1150px) {
+        height: 2500px;
+    }
+    @media (max-width:960px) {
+        height: 2000px;
+    }
+    @media(max-width: 760px) {
+        height: 1500px;
+    }
+    @media(max-width: 560px) {
+        height: 1000px;
+    }
+}
