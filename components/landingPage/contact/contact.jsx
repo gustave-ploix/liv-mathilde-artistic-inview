@@ -22,7 +22,7 @@ export default function Contact() {
                             layout="fill"
                             objectFit='cover'
                             objectPosition="center"
-                            quality={1}
+                            quality={100}
                         />
                     </div>
                 </div>
