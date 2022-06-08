@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import HeaderWrapper from '../components/dousedSilk/HeaderWrapper';
 import TitleContainer from '../components/dousedSilk/titleContainer';
+import Gallery from '../components/dousedSilk/gallery';
 
 import Footer from '../components/common/footer';
 
@@ -15,6 +16,7 @@ export default function DousedSilk() {
             </Head>
             <HeaderWrapper />
             <TitleContainer />
+            <Gallery />
             <Footer /> 
         </>
     )
