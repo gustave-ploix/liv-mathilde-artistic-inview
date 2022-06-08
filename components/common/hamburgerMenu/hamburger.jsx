@@ -55,7 +55,7 @@ export default function HamburgerMenu() {
                     <div className={styles.dropdownContainer}>
                         <Link href="/doused-silk"><a onClick={closeLayout}> ARTWORK</a></Link>
                         <Link href="/doused-silk"><a onClick={closeLayout}>........DOUSED SILK</a></Link>
-                        <Link href="/"><a onClick={closeLayout}>........MY BROKEN THINGS WITH LOVE</a></Link>
+                        <Link href="/my-broken-things"><a onClick={closeLayout}>........MY BROKEN THINGS WITH LOVE</a></Link>
                     </div>
                     <Link href="/"><a onClick={closeLayout}>NUEE</a></Link>
                     <Link href="/"><a onClick={closeLayout}>DESIGN TEXTILE</a></Link>
