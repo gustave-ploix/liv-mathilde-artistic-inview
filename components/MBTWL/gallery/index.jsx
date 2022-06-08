@@ -23,20 +23,20 @@ export default function Gallery() {
     return (
         <GalleryLayout>
             <Mosaic
-                src01={image01} alt01="blabla"
-                src02={image02} alt02="blabla"
-                src03={image03} alt03="blabla"
-                src04={image04} alt04="blabla"
+                src01={image01} alt01="broken plate standing up."
+                src02={image02} alt02="broken glasses in a dark background."
+                src03={image03} alt03="broken lid in a light background."
+                src04={image04} alt04="broken ballon in a light background."
             />
-            <FullPageGallery propSrc={image05} propAlt="blabla" />
+            <FullPageGallery propSrc={image05} propAlt="ripped jacket in a light background." />
             <Mosaic
-                src01={image06} alt01="blabla"
-                src02={image07} alt02="blabla"
-                src03={image08} alt03="blabla"
-                src04={image09} alt05="blabla"
+                src01={image06} alt01="installation with a broken chair and a black coat."
+                src02={image07} alt02="broken chair installed a certain way."
+                src03={image08} alt03="other installation of this same chair."
+                src04={image09} alt04="black jacket creating a shadow."
             />
-            <FullPageGallery propSrc={image10} propAlt="blabla" />
-            <FullPageGallery propSrc={image11} propAlt="blabla" />
+            <FullPageGallery propSrc={image10} propAlt="ripped drape disposed hanging on the wall." />
+            <FullPageGallery propSrc={image11} propAlt="dead apple in a really dark background." />
 
         </GalleryLayout>
     )
