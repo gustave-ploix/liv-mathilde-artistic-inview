@@ -1,0 +1,38 @@
+.titleContainer {
+    
+    width: 20%;
+    margin: 50px auto;
+    
+    position: relative;
+    .title {
+        margin: auto;
+        width: 100%;
+        // background-color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+    
+        font-weight: 300;
+        line-height: 55px;
+    }
+
+
+    @media(max-width: 1270px) {
+        width: 30%;
+    }
+    @media(max-width: 840px) {
+        width: 40%;
+    }
+    @media(max-width: 630px) {
+        width: 50%;
+    }
+    @media(max-width: 510px) {
+        .title{
+            font-size: 22px;
+        }
+    }
+    @media (max-width: 365px) {
+        width: 55%;
+    }
+} 
