@@ -50,8 +50,8 @@ export default function HamburgerMenu() {
                 <div className={styles.navLinksContainer}>
                     <Link  href="/artistic-in-view-studio"><a onClick={closeLayout}>ARTISTIC (IN)VIEW STUDIO</a></Link>
                     <div className={styles.dropdownContainer}>
-                        <Link href="/"><a onClick={closeLayout}> ARTWORK</a></Link>
-                        <Link href="/"><a onClick={closeLayout}>........DOUSED SILK</a></Link>
+                        <Link href="/doused-silk"><a onClick={closeLayout}> ARTWORK</a></Link>
+                        <Link href="/doused-silk"><a onClick={closeLayout}>........DOUSED SILK</a></Link>
                         <Link href="/"><a onClick={closeLayout}>........MY BROKEN THINGS WITH LOVE</a></Link>
                     </div>
                     <Link href="/"><a onClick={closeLayout}>NUEE</a></Link>
