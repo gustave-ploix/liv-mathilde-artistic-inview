@@ -1,7 +1,7 @@
 import styles from './aboutSection.module.scss';
 import AboutSectionLayout from './aboutSectionLayout';
 
-export default function aboutSection() {
+export default function AboutSection() {
 
 
     return (
