@@ -14,7 +14,9 @@ export default function Navbar() {
         <NavbarLayout>
 
             <div className={styles.logoContainer}>
+                <Link href="/">
                 <Image src={logo} alt="artistic (in)View" className={styles.logoImg} />
+                </Link>
             </div>
 
             <div className={styles.navLinks}>

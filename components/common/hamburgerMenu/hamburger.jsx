@@ -31,6 +31,8 @@ export default function HamburgerMenu() {
                     <div className={openned ? styles.opennedBtn : styles.button}></div>
                 </div>
 
+
+                <Link href="/">
                 <Image
                     alt="logo Image"
                     width={136}
@@ -38,7 +40,8 @@ export default function HamburgerMenu() {
                     objectFit="contain"
                     src={logo}
                     className={styles.logo}
-                />
+                    />
+                </Link>
 
             </div>
             <section className={styles.navigationSection}
