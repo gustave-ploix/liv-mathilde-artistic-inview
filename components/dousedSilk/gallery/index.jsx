@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-import RowGallery from '../rowGallery';
-import FullPageGallery from '../fullPageGallery';
+import RowGallery from "../../common/rowGallery";
+import FullPageGallery from "../../common/fullPageGallery";
 
 import image01 from "../../../assets/images/doused-silk/01.jpg"
 import image02 from "../../../assets/images/doused-silk/02.jpg"
