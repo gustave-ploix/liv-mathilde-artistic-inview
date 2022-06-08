@@ -1,0 +1,39 @@
+.rowLayout {
+    margin: auto;
+
+    width: 90%;
+    height: 600px;
+    // background-color: blue;    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px 15px;
+    grid-template-areas: "photoOne photoOne photoTwo photoTwo";
+
+    .photoOne {
+        // background-color: purple;
+        grid-area: photoOne;
+        position: relative;
+    }
+    .photoTwo {
+        // background-color: red;
+        grid-area: photoTwo;
+        position: relative;
+    }
+
+
+    @media(max-width: 1100px) {
+        height: 1000px; 
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "photoOne photoOne photoOne photoOne"
+            "photoTwo photoTwo photoTwo photoTwo"
+        ;
+    }
+
+    @media(max-width: 660px) {
+        height: 750px;
+    }
+}
