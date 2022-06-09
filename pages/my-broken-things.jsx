@@ -1,10 +1,12 @@
 import Head from 'next/head';
 
-import Header from '../components/MBTWL/header/header';
+import Header from '../components/common/header/header';
 import TitleContainer from '../components/MBTWL/TitleContainer';
 import Gallery from '../components/MBTWL/gallery';
 
 import Footer from '../components/common/footer';
+
+import headerImage from '../assets/images/MBTWL/header.jpg';
 
 export default function MyBrokenThings() {
     return (
@@ -15,7 +17,7 @@ export default function MyBrokenThings() {
                 <title>My broken things</title>
             </Head>
 
-            <Header />
+            <Header headerSrc={headerImage} headerAlt="broken chair." />
             <TitleContainer />
             <Gallery />
 
