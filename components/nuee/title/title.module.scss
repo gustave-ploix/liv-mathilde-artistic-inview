@@ -1,0 +1,61 @@
+.titleContainer {
+    // background-color: blue;
+
+    width: 80%;
+
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .descriptionTitle {
+        margin-top: 50px;
+
+        p {
+            font-weight: 300;
+
+            a {
+                color: gray;
+                font-weight: 500;
+                text-decoration: underline;
+            }
+        }
+    }
+    .titleFooter {
+        margin-top: 50px;
+
+        letter-spacing: 3px;
+    }
+}
+
+// responsive 
+
+
+.titleContainer {
+    @media(max-width: 840px) {
+        width: 90%;
+    }
+    @media(max-width: 720px) {
+        .descriptionTitle {
+            font-size: 15px;
+        }
+        .titleFooter {
+            font-size: 15px;
+            letter-spacing: 2.5px;
+        }
+    }
+    @media(max-width: 650px) {
+        .titleFooter {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+    @media(max-width: 560px) {
+        .logoContainer {
+            width: 250px;
+        }
+    }
+}
