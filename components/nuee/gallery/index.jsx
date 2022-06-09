@@ -41,13 +41,13 @@ export default function Gallery() {
     ];
 
 
-    const listOfSrc = firstPartImages.map((object) => (
+    const firstPart = firstPartImages.map((object) => (
         <FullPageGallery propSrc={object.src} propAlt={object.alt} />
     ))
 
     return (
         <GalleryLayout>
-            {listOfSrc}
+            {firstPart}
         </GalleryLayout>
     )
 }
