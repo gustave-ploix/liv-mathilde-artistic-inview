@@ -13,19 +13,19 @@ export default function Title() {
             </div>
 
             <div className={styles.descriptionTitle}>
-                <p>... est la concrétisation d’une collaboration de plusieurs années entre <a target="_blank" rel='noopener noreferrer' href="https://cometouvay.wixsite.com/cometouvay">Côme Touvay</a>,
+                <p>... est la concrétisation d&apos;une collaboration de plusieurs années entre <a target="_blank" rel='noopener noreferrer' href="https://cometouvay.wixsite.com/cometouvay">Côme Touvay</a>,
                     designer textile spécialisé en tissage et Liv Mathilde Méchin styliste plasticienne.
-                    Une rencontre de deux auteurs et l’excellence d'un fabricant belge, <a target="_blank" rel='noopener noreferrer' href="https://www.verilin.be/">Verilin</a>.</p>
+                    Une rencontre de deux auteurs et l&apos;excellence d'un fabricant belge, <a target="_blank" rel='noopener noreferrer' href="https://www.verilin.be/">Verilin</a>.</p>
                 <p>
                     Porté par une intention artistique forte, entre design, art et poésie, Nuée a été créé pour donner
-                    une nouvelle perception d’espace et de couleurs à travers une ligne de textile maison.
+                    une nouvelle perception d&apos;espace et de couleurs à travers une ligne de textile maison.
                 </p>
                 <p>
-                    C’est une recherche d'infini jeux de tissage, de couleurs et de matières.
+                    C&apos;est une recherche d'infini jeux de tissage, de couleurs et de matières.
                 </p>
                 <p>
-                    Une alchimie silencieuse: Fil à fil la couleur devient blanche, le lin devient coton, progressivement réversible l’endroit devient l’envers
-                    Les tissus s’appelle: Shadow, Ombre 33, Drap d’été, Drap d’hiver, Voile de nuit,
+                    Une alchimie silencieuse: Fil à fil la couleur devient blanche, le lin devient coton, progressivement réversible l&apos;endroit devient l&apos;envers
+                    Les tissus s’appelle: Shadow, Ombre 33, Drap d&apos;été, Drap d&apos;hiver, Voile de nuit,
                 </p>
             </div>
             <p className={styles.titleFooter}><span>&#123;</span> Direction Artistique & Creative, Design Textile, Photo Styling <span>&#125;</span> </p>
