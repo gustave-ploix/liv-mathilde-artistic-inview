@@ -1,0 +1,52 @@
+.tripleRowLayout {
+    width: 90%;
+    height: 700px;
+
+    margin: auto;
+
+    // background-color: blue;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;  
+    grid-template-areas: "firstImage secondImage thirdImage";
+
+    .firstImage {
+        grid-area: firstImage;
+        // background-color: red;
+        position: relative;
+    }
+    .secondImage {
+        grid-area: secondImage;
+        // background-color: green;
+        position: relative;
+    }
+    .thirdImage {
+        grid-area: thirdImage;
+        // background-color: blue;
+        position: relative;
+    }
+
+    @media(max-width: 1400px) {
+        height: 3000px;
+        width: 80%;
+
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "firstImage firstImage firstImage"
+        "secondImage secondImage secondImage"
+        "thirdImage thirdImage thirdImage"; 
+        ;   
+    }
+    @media(max-width: 666px) {
+        height: 2500px;
+    }
+    @media(max-width: 570px) {
+        height: 2000px;
+    }
+    @media(max-width: 444px) {
+        height: 1500px;
+    }
+}
