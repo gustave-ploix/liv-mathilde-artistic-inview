@@ -8,6 +8,7 @@ export default function ContactPage() {
         <section>
             <Head>
                 <title>Contact</title>
+                <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
                 <meta name="description" content="contact page for the liv mathilde's website" />
             </Head>
 

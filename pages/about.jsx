@@ -14,6 +14,7 @@ export default function About() {
         }}>
             <Head>
                 <title>About</title>
+                <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
                 <meta name="description" content="about page for the liv mathilde's website" />
             </Head>
             <AboutSection />

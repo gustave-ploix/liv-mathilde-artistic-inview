@@ -18,6 +18,7 @@ export default function Nuee() {
         <>
             <Head>
                 <title>Nuée</title>
+                <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
                 <meta name="description" content="page presenting the work between Liv Mathilde Mechin and Côme Touvay, Nuée is a brand of artistic house laundry." />
             </Head>
 
