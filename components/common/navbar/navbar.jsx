@@ -31,7 +31,7 @@ export default function Navbar() {
                         <Link href='/my-broken-things'><a className={styles.navLink} href="#">MY BROKEN THINGS WITH LOVE...</a></Link>
                     </div>
                 </div>
-                <Link href='/'><a className={styles.navLink} href="#">NUEE</a></Link>
+                <Link href='/nuee'><a className={styles.navLink} href="#">NUEE</a></Link>
                 <Link href='/'><a className={styles.navLink} href="#">DESIGN TEXTILE</a></Link>
                 <Link href='/'><a className={styles.navLink} href="#">VISUAL RESEARCH</a></Link>
                 <Link href='/about'><a className={styles.navLink} href="#">ABOUT</a></Link>
