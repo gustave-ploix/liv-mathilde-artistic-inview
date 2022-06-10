@@ -16,6 +16,11 @@ export default function Nuee() {
 
     return (
         <>
+            <Head>
+                <title>Nuée</title>
+                <meta name="description" content="page presenting the work between Liv Mathilde Mechin and Côme Touvay, Nuée is a brand of artistic house laundry." />
+            </Head>
+
             <Header headerSrc={headerImage} headerAlt="a drape made by liv mathilde mechin for her society Nuée." />
             <Title />
             <Gallery />

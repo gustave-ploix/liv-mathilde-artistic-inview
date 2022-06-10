@@ -38,62 +38,43 @@ export default function Gallery() {
         },
         {
             "src": image02,
-            "alt": "blabla"
+            "alt": "research about shadow with ink"
         },
         {
             "src": image03,
-            "alt": "blabla"
+            "alt": "person wearing nuée's drape"
         },
         {
             "src": image04,
-            "alt": "blabla"
+            "alt": "Nuée's drape laying on the floor"
         },
         {
             "src": image05,
-            "alt": "blabla"
+            "alt": "installation of nuée's pillow, drape and curtains."
         },
         {
             "src": image06,
-            "alt": "blabla"
+            "alt": "research about trasparence."
         }
     ];
 
 
 
-    const firstPart = firstPartImages.map((object) => (
-        <FullPageGallery propSrc={object.src} propAlt={object.alt} />
+    const firstPart = firstPartImages.map((object, index) => (
+        <FullPageGallery key={index} propSrc={object.src} propAlt={object.alt} />
     ))
-
-        const secondPartImages = [
-            { "src": image07, "alt": "blabla" },
-            { "src": image08, "alt": "blabla" },
-            { "src": image09, "alt": "blabla" },
-            { "src": image10, "alt": "blabla" },
-            { "src": image11, "alt": "blabla" },
-            { "src": image12, "alt": "blabla" },
-            { "src": image13, "alt": "blabla" },
-            { "src": image14, "alt": "blabla" },
-            { "src": image15, "alt": "blabla" },
-            { "src": image16, "alt": "blabla" },
-            { "src": image17, "alt": "blabla" },
-            { "src": image18, "alt": "blabla" },
-            { "src": image19, "alt": "blabla" },
-            { "src": image20, "alt": "blabla" }
-        ]
-
-
 
     return (
         <GalleryLayout>
             {firstPart}
-            <RowGallery firstSrc={image07} secondSrc={image08} />
-            <RowGallery firstSrc={image09} secondSrc={image10} />
-            <RowGallery firstSrc={image11} secondSrc={image12} />
-            <RowGallery firstSrc={image13} secondSrc={image14} />
-            <RowGallery firstSrc={image15} secondSrc={image16} />
-            <RowGallery firstSrc={image17} secondSrc={image18} />
-            <RowGallery firstSrc={image19} secondSrc={image20} />
-            <FullPageGallery propSrc={image21} />
+            <RowGallery firstSrc={image07} firstAlt="installation of nuée's pillows and drapes" secondSrc={image08} secondAlt="details of nuée's drape" />
+            <RowGallery firstSrc={image09} firstAlt="orange detail on a nuée's drape" secondSrc={image10} secondAlt="orange nuée's curtain" />
+            <RowGallery firstSrc={image11} firstAlt="yellow nuée's curtain" secondSrc={image12} secondAlt="yellow nuée's pillow on a green drape" />
+            <RowGallery firstSrc={image13} firstAlt="blue nuée's curtain" secondSrc={image14} secondAlt="research about blue mark" />
+            <RowGallery firstSrc={image15} firstAlt="blue detail" secondSrc={image16} secondAlt="person sleeping inside nuée's blue drape" />
+            <RowGallery firstSrc={image17} firstAlt="yellow curtain pending" secondSrc={image18} secondAlt="research about melting the yellow and blue colors" />
+            <RowGallery firstSrc={image19} firstAlt="bed entirely covered with nuée's pink drapes" secondSrc={image20} secondAlt="melting of two nuée's drape" />
+            <FullPageGallery propSrc={image21} propAlt="person sleeping inside the nuée's drapes" />
         </GalleryLayout>
     )
 }
