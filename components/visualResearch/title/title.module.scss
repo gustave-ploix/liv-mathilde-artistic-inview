@@ -1,0 +1,23 @@
+.titleWrapper {
+    width: 90%;
+    height: auto;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 25px;
+        font-weight: 350;
+    }
+
+    .plainTextContainer > .plainText {
+        font-weight: 300;
+    }
+
+    .titleFooter {
+        font-weight: 400;
+    }
+}
