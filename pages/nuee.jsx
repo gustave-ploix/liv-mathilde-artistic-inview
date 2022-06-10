@@ -8,6 +8,8 @@ import Gallery from '../components/nuee/gallery';
 import Title from '../components/nuee/title';
 
 import Footer from '../components/common/footer';
+import SecondTitle from '../components/nuee/secondTitle';
+import NueeGallery from '../components/nuee/nueeGallery';
 
 export default function Nuee() {
     
@@ -17,6 +19,8 @@ export default function Nuee() {
             <Header headerSrc={headerImage} headerAlt="a drape made by liv mathilde mechin for her society Nuée." />
             <Title />
             <Gallery />
+            <SecondTitle />
+            <NueeGallery />
 
             <Footer />
         </>
