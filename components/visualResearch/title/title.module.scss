@@ -14,10 +14,18 @@
     }
 
     .plainTextContainer > .plainText {
-        font-weight: 300;
+        font-weight: 200;
+        // font-size: 19px;
     }
 
     .titleFooter {
         font-weight: 400;
     }
+
+   @media(max-width: 395px) {
+       .titleFooter {
+           display: flex;
+           flex-direction: column;
+       }
+   }
 }
