@@ -67,11 +67,11 @@ export default function Gallery() {
                 <p className={styles.title}>Recherches de couleurs, harmonies colorées</p>
             </div>
 
-            <FullPageGallery propSrc={image18}/>
-            <FullPageGallery propSrc={image19}/>
-            <FullPageGallery propSrc={image20}/>
-            <FullPageGallery propSrc={image21}/>
-            <FullPageGallery propSrc={image22}/>
+            <FullPageGallery propSrc={image18} propAlt="visual research"/>
+            <FullPageGallery propSrc={image19} propAlt="visual research"/>
+            <FullPageGallery propSrc={image20} propAlt="visual research"/>
+            <FullPageGallery propSrc={image21} propAlt="visual research"/>
+            <FullPageGallery propSrc={image22} propAlt="visual research"/>
             <TripleRow firstSrc={image23} secondSrc={image24} thirdSrc={image25}/>
             <RowGallery firstSrc={image26} secondSrc={image27} firstAlt="visual research" secondAlt="visual research" />
             <FullPageGallery propSrc={image28} propAlt="visual research" />

@@ -33,14 +33,16 @@ export default function HamburgerMenu() {
 
 
                 <Link href="/">
-                <Image
-                    alt="logo Image"
-                    width={136}
-                    height={43}
-                    objectFit="contain"
-                    src={logo}
-                    className={styles.logo}
-                    />
+                    <a>
+                        <Image
+                            alt="logo Image"
+                            width={136}
+                            height={43}
+                            objectFit="contain"
+                            src={logo}
+                            className={styles.logo}
+                        />
+                    </a>
                 </Link>
 
             </div>
@@ -51,7 +53,7 @@ export default function HamburgerMenu() {
             >
 
                 <div className={styles.navLinksContainer}>
-                    <Link  href="/artistic-in-view-studio"><a onClick={closeLayout}>ARTISTIC (IN)VIEW STUDIO</a></Link>
+                    <Link href="/artistic-in-view-studio"><a onClick={closeLayout}>ARTISTIC (IN)VIEW STUDIO</a></Link>
                     <div className={styles.dropdownContainer}>
                         <Link href="/doused-silk"><a onClick={closeLayout}> ARTWORK</a></Link>
                         <Link href="/doused-silk"><a onClick={closeLayout}>........DOUSED SILK</a></Link>

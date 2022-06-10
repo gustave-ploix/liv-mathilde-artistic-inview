@@ -15,7 +15,9 @@ export default function Navbar() {
 
             <div className={styles.logoContainer}>
                 <Link href="/">
-                <Image src={logo} alt="artistic (in)View" className={styles.logoImg} />
+                    <a>
+                        <Image src={logo} alt="artistic (in)View" className={styles.logoImg} />
+                    </a>
                 </Link>
             </div>
 

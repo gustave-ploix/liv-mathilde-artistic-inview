@@ -12,13 +12,13 @@ export default function TripleRow({
     return (
         <TripleRowLayout>
             <div className={styles.firstImage}>
-                <Image src={firstSrc} layout="fill" objectFit='cover' quality={100} />
+                <Image src={firstSrc} alt="visual research" layout="fill" objectFit='cover' quality={100} />
             </div>
             <div className={styles.secondImage}>
-                <Image src={secondSrc} layout="fill" objectFit='cover' quality={100} />
+                <Image src={secondSrc} alt="visual research" layout="fill" objectFit='cover' quality={100} />
             </div>
             <div className={styles.thirdImage}>
-                <Image src={thirdSrc} layout="fill" objectFit='cover' quality={100} />
+                <Image src={thirdSrc} alt="visual research" layout="fill" objectFit='cover' quality={100} />
             </div>
         </TripleRowLayout>
     )
