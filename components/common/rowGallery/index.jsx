@@ -10,10 +10,10 @@ export default function rowGallery({firstSrc, firstAlt, secondSrc, secondAlt}) {
         <RowGalleryLayout>
 
             <div className={styles.photoOne}>
-                <Image src={firstSrc} alt={firstAlt} layout="fill" objectFit='cover'/>
+                <Image src={firstSrc} alt={firstAlt} quality={100} layout="fill" objectFit='cover'/>
             </div>
             <div className={styles.photoTwo}>
-                <Image src={secondSrc} alt={secondAlt} layout="fill" objectFit='cover'/>
+                <Image src={secondSrc} alt={secondAlt} quality={100} layout="fill" objectFit='cover'/>
             </div>
         </RowGalleryLayout>
     )
