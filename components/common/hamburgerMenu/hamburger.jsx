@@ -60,7 +60,7 @@ export default function HamburgerMenu() {
                         <Link href="/my-broken-things"><a onClick={closeLayout}>........MY BROKEN THINGS WITH LOVE</a></Link>
                     </div>
                     <Link href="/nuee"><a onClick={closeLayout}>NUEE</a></Link>
-                    <Link href="/"><a onClick={closeLayout}>DESIGN TEXTILE</a></Link>
+                    <Link href="/design-textile"><a onClick={closeLayout}>DESIGN TEXTILE</a></Link>
                     <Link href="/visual-research"><a onClick={closeLayout}>VISUAL RESEARCH</a></Link>
                     <Link href="/about"><a onClick={closeLayout}>ABOUT</a></Link>
                     <Link href="/contact"><a onClick={closeLayout}>CONTACT</a></Link>
