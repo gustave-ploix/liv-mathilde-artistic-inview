@@ -20,11 +20,11 @@ export default function FourthGallery() {
                     VERILIN - Collection Shine
                 </p>
             </div>
-            <FullPageGallery propSrc={image33} />
-            <FullPageGallery propSrc={image34} />
-            <FullPageGallery propSrc={image35} />
-            <FullPageGallery propSrc={image36} />
-            <FullPageGallery propSrc={image37} />
+            <FullPageGallery propSrc={image33} propAlt="drawing by liv mathilde mechin" />
+            <FullPageGallery propSrc={image34} propAlt="tablecloth"/>
+            <FullPageGallery propSrc={image35} propAlt="pillows" />
+            <FullPageGallery propSrc={image36} propAlt="person sitting on a bed covered with drapes of Liv Mathilde Mechin's designs" />
+            <FullPageGallery propSrc={image37} propAlt="drape in Cashmere with liv mathilde mechin's design" />
         </FourthGalleryLayout>
     )
 }

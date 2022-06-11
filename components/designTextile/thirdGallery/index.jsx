@@ -30,8 +30,8 @@ export default function ThirdGallery() {
             </div>
             <TripleRow firstSrc={image25} secondSrc={image26} thirdSrc={image27} />
             <RowGallery firstSrc={image28} secondSrc={image29} />
-            <RowGallery firstSrc={image30} secondSrc={image31} />
-            <FullPageGallery propSrc={image32} />
+            <RowGallery firstSrc={image30} secondSrc={image31} firstAlt="" secondAlt="" />
+            <FullPageGallery propSrc={image32} propAlt="table with eatable decoration on the liv mathilde mechin's drape" />
         </ThirdGalleryLayout>
 
     )
