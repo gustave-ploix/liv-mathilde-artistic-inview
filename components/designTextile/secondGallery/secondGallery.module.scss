@@ -1,0 +1,44 @@
+.secondGalleryLayout {
+    .galleryName {
+        width: 90%;
+
+        margin: 50px auto;
+   
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .line {
+            width: 80%;
+            height: 1px;
+
+            background-color: lightgrey;
+        }
+        p {
+            margin-top: 50px;
+
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 300;
+        }
+    }
+
+    @media(max-width: 525px) {
+        .galleryName > p {
+            font-size: 18px;
+        }
+    }
+    @media(max-width: 430px) {
+        .galleryName {
+            .line {
+                width: 90%;
+            }
+            p {
+                font-size: 13px;
+            }
+        } 
+    }
+}
