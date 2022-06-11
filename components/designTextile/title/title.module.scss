@@ -1,0 +1,36 @@
+.titleWrapper {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+    h1 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .plainText {
+        font-size: 17px;
+        font-weight: 300;
+    }
+
+
+    @media(max-width: 970px) {
+        .plainText {
+            font-size: 15px;
+        }
+        .titleFooter {
+            font-size: 14px;
+        }
+    }
+    @media(max-width: 730px) {
+        .titleFooter {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
