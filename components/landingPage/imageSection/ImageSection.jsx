@@ -32,6 +32,7 @@ export default function ImageSection() {
                 layout="fill"
                 objectFit='cover'
                 objectPosition="center"
+                placeholder='blur'
                 quality={100}
                 style={{
                     transform: `translateY(${-offsetY * 0.08}px)`

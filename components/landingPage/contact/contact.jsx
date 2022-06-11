@@ -20,6 +20,7 @@ export default function Contact() {
                             src={artworkImage}
                             alt="image composition with papers"
                             layout="fill"
+                            placeholder='blur'
                             objectFit='cover'
                             objectPosition="center"
                             quality={100}
