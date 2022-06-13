@@ -41,21 +41,21 @@ export default function Footer() {
                     <p className={styles.navLink}>NUÉE</p>
                 </Link>
                 <Link href="/design-textile#top">
-                    <p className={styles.navLink}><a href="#">TEXTILE DESIGN</a></p>
+                    <p className={styles.navLink}>TEXTILE DESIGN</p>
                 </Link>
                 <Link href="/visual-research#top">
-                    <p className={styles.navLink}><a href="#">VISUAL RESEARCH</a></p>
+                    <p className={styles.navLink}>VISUAL RESEARCH</p>
                 </Link>
                 <Link href="/about#top">
-                    <p className={styles.navLink}><a href="#">ABOUT</a></p>
+                    <p className={styles.navLink}>ABOUT</p>
                 </Link>
                 <Link href="/contact#top">
-                    <p className={styles.navLink}><a href="#">CONTACT</a></p>
+                    <p className={styles.navLink}>CONTACT</p>
                 </Link>
-                <Link href="/">
-                    <p className={styles.navLink}><a href="#">HOME</a></p>
+                <Link href="/#top">
+                    <p className={styles.navLink}>HOME</p>
                 </Link> 
-                <Link href="/" scroll={true}>
+                <Link href="/credits#top">
                     <p className={styles.navLink}>CREDITS</p>
                 </Link>
                 </div>
