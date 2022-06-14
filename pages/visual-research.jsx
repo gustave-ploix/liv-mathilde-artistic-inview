@@ -14,6 +14,7 @@ export default function VisualResearch() {
     return (
         <>
             <Head>
+                <meta name="apple-mobile-web-app-capable" content='yes' />
                 <title>Visual research</title>
                 <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
                 <meta name="description" content="Page presenting the visual researchs of Liv Mathilde Mechin" />
