@@ -13,7 +13,7 @@ a {
 
 #__next {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - env(safe-area-inset-bottom));
 
   position: relative;
 
