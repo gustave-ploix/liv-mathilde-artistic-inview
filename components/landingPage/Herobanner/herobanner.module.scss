@@ -1,3 +1,5 @@
+@import "../../../assets/utilities/font_variables.scss";
+
 .heroLayout {
     width: 100vw;
     height: 100vh;
@@ -9,6 +11,8 @@
         height: calc(100% - 200px);
 
         position: relative;
+
+
 
         .cartel {
 
@@ -38,19 +42,22 @@
             h1,
             h2,
             p {
+                // font-weight: 100;
                 color: white;
                 margin: 0;
             }
-
-
+            
+            
             h1 {
-                font-weight: 300;
+                font-family: $title-font;
+                font-weight: 200;
                 font-size: 30px;
                 letter-spacing: 5px;
             }
 
             h2 {
-                font-weight: 300;
+                font-family: $title-font;
+                font-weight: 200;
                 font-size: 25px;
                 letter-spacing: 3px;
             }
@@ -60,9 +67,10 @@
                 margin: auto;
 
                 p {
+                    font-family: $text-font;
                     text-align: center;
                     letter-spacing: 3px;
-                    font-weight: 500;
+                    font-weight: 400;
                     line-height: 30px;
                     color: lighten($color: gray, $amount: 30);
 
