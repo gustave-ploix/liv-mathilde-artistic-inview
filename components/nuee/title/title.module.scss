@@ -1,3 +1,5 @@
+@import "../../../assets/utilities/font_variables.scss";
+
 .titleContainer {
     // background-color: blue;
 
@@ -15,11 +17,12 @@
 
         p {
             font-weight: 300;
+            font-family: $text-font;
 
             a {
+                font-family: $text-font;
                 color: black;
                 font-weight: 500;
-                // text-decoration: underline;
                 
                 &:hover {
                     color: gray;
@@ -28,8 +31,10 @@
         }
     }
     .titleFooter {
+
         margin-top: 50px;
 
+        font-family: $title-font;
         letter-spacing: 3px;
     }
 }
