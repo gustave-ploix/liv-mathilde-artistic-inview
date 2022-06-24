@@ -1,3 +1,5 @@
+@import "../../../assets/utilities/font_variables.scss";
+
 .titleWrapper {
     width: 90%;
     margin: auto;
@@ -9,13 +11,19 @@
 
 
     h1 {
-        font-size: 25px;
-        font-weight: 400;
+        font-family: $title-font;
+        font-size: 28px;
+        font-weight: 300;
     }
 
     .plainText {
+        font-family: $text-font;
         font-size: 17px;
         font-weight: 300;
+    }
+
+    .titleFooter {
+        font-family: $text-font;
     }
 
 
