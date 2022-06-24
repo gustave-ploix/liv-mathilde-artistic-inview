@@ -1,3 +1,5 @@
+@import "../../../assets/utilities/font_variables.scss";
+
 .titleContainer {
     // background-color: blueviolet;
 
@@ -10,19 +12,22 @@
     justify-content: center;
 
     .title {
+        font-family: $title-font;
         font-size: 25px;
-        font-weight: 300;
+        font-weight: 200;
         letter-spacing: 8px;
     }
 
     .separator {
-        font-weight: 300;
+        font-family: $title-font;
+        font-weight: 200;
         font-size: 20px;
         margin: 0 15px;
     }
 
     .italicText {
-        font-weight: 300;
+        font-family: $title-font;
+        font-weight: 200;
         font-style: italic;
         letter-spacing: 8px;
     }
