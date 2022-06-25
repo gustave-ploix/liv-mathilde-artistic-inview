@@ -26,12 +26,24 @@ export default function SecondGallery() {
                     VERILIN - Collections: Polka, Normandy, Bloc
                 </p>
             </div>
-            <FullPageGallery propSrc={image15} />
-            <RowGallery  firstSrc={image16} secondSrc={image17}/>
-            <RowGallery  firstSrc={image18} secondSrc={image19}/>
-            <FullPageGallery propSrc={image20} />
-            <RowGallery  firstSrc={image21} secondSrc={image22}/>
-            <RowGallery  firstSrc={image23} secondSrc={image24}/>
+            <FullPageGallery propSrc={image15} propAlt="drawings of liv mathilde mechin about the collection for verilin." />
+            <RowGallery  firstSrc={image16} secondSrc={image17}
+                firstAlt="curtains made by liv mathilde mechin for verilin"
+                secondAlt="bed sheets made by liv mathilde mechin for verilin"
+            />
+            <RowGallery  firstSrc={image18} secondSrc={image19}
+                firstAlt="table cloth made by liv mathilde mechin for verilin"
+                secondAlt="table cloth made by liv mathilde mechin for verilin"
+            />
+            <FullPageGallery propSrc={image20} propAlt="drawings made by liv mathilde mechin for a collection by verilin"/>
+            <RowGallery  firstSrc={image21} secondSrc={image22}
+                firstAlt="bed sheets made by liv mathilde mechin for verilin"
+                secondAlt="bed sheets made by liv mathilde mechin for verilin"
+            />
+            <RowGallery  firstSrc={image23} secondSrc={image24}
+                firstAlt="bed sheets made by liv mathilde mechin for verilin"
+                secondAlt="bed sheets made by liv mathilde mechin for verilin"
+            />
         </SecondGalleryLayout>
     )
 }
