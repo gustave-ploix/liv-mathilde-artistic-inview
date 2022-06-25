@@ -30,12 +30,26 @@ export default function FirstGallery() {
                     VERILIN - Collection Guermantes, Palladio, Parc
                 </p>
             </div>
-            <TripleRow firstSrc={image01} secondSrc={image02} thirdSrc={image03} />
-            <FullPageGallery propSrc={image04} />
-            <RowGallery firstSrc={image05} secondSrc={image06} />
-            <RowGallery firstSrc={image07} secondSrc={image08} />
-            <RowGallery firstSrc={image09} secondSrc={image10} />
-            <RowGallery firstSrc={image11} secondSrc={image12} />
+            <TripleRow firstSrc={image01} secondSrc={image02} thirdSrc={image03}
+                firstAlt="pillows made by liv mathilde mechin for verilin"
+                secondAlt="pattern made by liv mathilde mechin for verilin"
+                thirdAlt="inspiration for liv mathilde mechin"
+            />
+            <FullPageGallery propSrc={image04} propAlt="moodboard of the work of liv mathilde mechin" />
+            <RowGallery firstSrc={image05} secondSrc={image06}
+                firstAlt="tissues made by liv mathilde mechin for verilin"
+                secondAlt="moodboard for the work of liv mathilde mechin" />
+            <RowGallery firstSrc={image07} secondSrc={image08}
+                firstAlt="bed sheets made by liv mathilde mechin for verilin"
+                secondAlt="bed sheets made by liv mathilde mechin for verilin" />
+            <RowGallery firstSrc={image09} secondSrc={image10}
+                firstAlt="pillows made by liv mathilde mechin for verilin"
+                secondAlt="pillows made by liv mathilde mechin for verilin"
+            />
+            <RowGallery firstSrc={image11} secondSrc={image12}
+                firstAlt="impression of flowers on tissue, inspiration for liv mathilde mechin"
+                secondAlt="bed drapes made by liv mathilde mechin"
+            />
         </FirstGalleryLayout>
     )
 }
