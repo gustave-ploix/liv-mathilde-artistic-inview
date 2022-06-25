@@ -28,9 +28,19 @@ export default function ThirdGallery() {
                     VERILIN - Collection MINERALIS
                 </p>
             </div>
-            <TripleRow firstSrc={image25} secondSrc={image26} thirdSrc={image27} />
-            <RowGallery firstSrc={image28} secondSrc={image29} />
-            <RowGallery firstSrc={image30} secondSrc={image31} firstAlt="" secondAlt="" />
+            <TripleRow firstSrc={image25} secondSrc={image26} thirdSrc={image27} 
+                firstAlt="drawings made by liv mathilde mechin for the mineralis collection of verilin"
+                secondAlt="drawings made by liv mathilde mechin for the mineralis collection of verilin"
+                thirdAlt="drawings made by liv mathilde mechin for the mineralis collection of verilin"
+            />
+            <RowGallery firstSrc={image28} secondSrc={image29} 
+                firstAlt="pattern made by liv mathilde mechin for the collection mineralis"
+                secondAlt="pillows and blanked made with the pattern on the left"
+            />
+            <RowGallery firstSrc={image30} secondSrc={image31} 
+                firstAlt="drawing made by liv mathilde mechin"
+                secondAlt="table cloth made with the patterns of liv mathilde mechin"
+            />
             <FullPageGallery propSrc={image32} propAlt="table with eatable decoration on the liv mathilde mechin's drape" />
         </ThirdGalleryLayout>
 
