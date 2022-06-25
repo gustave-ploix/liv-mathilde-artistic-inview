@@ -23,13 +23,13 @@ export default function Footer() {
     return (
         <FooterLayout>
             <div className={styles.socialContainer}>
-                <p className={styles.logoSVG}>
-                    <BsLinkedin />
-                </p>
+                    <a href='https://www.instagram.com/livmathilde/' target="_blank" aria-label='instagram outlink' rel='noopener noreferrer' className={styles.logoSVG}>
+                        <BsLinkedin />
+                    </a>
 
-                <p className={styles.logoSVG}>
+                <a href='https://www.linkedin.com/in/livmathildeartisticinview/' aria-label='linkedin outlink' target="_blank" rel='noopener noreferrer' className={styles.logoSVG}>
                     <BsInstagram />
-                </p>
+                </a>
             </div>
 
             <div className={styles.separator}></div>

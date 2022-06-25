@@ -4,6 +4,8 @@
     width: 100vw;
     height: 200px;
 
+    margin-top: 50px;
+
     position: relative;
 
     .socialContainer {
@@ -14,7 +16,7 @@
         align-items: center;
         justify-content: center;
 
-        p {
+        a {
             margin: 20px;
         }
     }
